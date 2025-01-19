@@ -1,0 +1,5 @@
+# Excluir del ignorado archivos específicos
+!.gitignore
+!app.py
+!templates/
+!static/

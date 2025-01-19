@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 17px;
+    font-family: Georgia;
+    color: white;
+    font-size: 30px;
+    background: #3690ff;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #3cb0fd;
+}
